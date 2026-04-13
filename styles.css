@@ -1,0 +1,85 @@
+
+
+h1{
+    background-color: rgb(57, 165, 165);
+    font-size: 22px;
+    text-align: center;
+
+}
+p{
+    background-color: rgb(230, 186, 213);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+     
+    font-family: Arial, sans-serif;
+}
+main{
+    background-color: #95f083;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .destinos-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.destinos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.destinos-grid article {
+    text-align: center;
+}
+
+h3, ol{
+    font-size: 22px;
+    background-color: antiquewhite;
+    list-style: none;
+    border-radius: 10px;
+   
+}
+nav{
+    display: flex;
+    align-content: center;
+    
+}
+nav a{
+color: rgb(15, 13, 13);
+
+text-decoration: none;
+margin-right: 15px;
+font-weight: bold;
+background-color: rgb(243, 171, 129);
+
+
+}
+
+.carousel img  {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 22px auto;
+    border-radius: 22px;
+    
+}
+
+footer{
+background-color: rgb(146, 218, 214);
+    text-align: center;
+    padding: 20px;
+    color: rgb(15, 13, 10);
+    border-radius: 10px;
+}
+.container{
+    background-color: rgb(226, 245, 54);
+    margin: 10px;
+    border-radius: 10px;
+}
